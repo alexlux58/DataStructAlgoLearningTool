@@ -1,14 +1,14 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
   return (
     <div className="content">
       <h2>What is Sorting?</h2>
       <p>
-        Sorting is nothing but, arranging elements in the order we want. You
-        might have come across this in your school or college days. Like
-        arranging numbers from smaller to greater (ascending) or from greater to
-        smaller (descending) is what we saw till now and is called sorting.
+        a sorting algorithm is an algorithm that puts elements of a list into an
+        order. The most frequently used orders are numerical order and
+        lexicographical order, and either ascending or descending.
       </p>
       <h2>Default sorting in Javascript</h2>
       <p>
@@ -17,19 +17,28 @@ const Home = () => {
         order. Just call sort() on items array and it sorts array elements in
         ascending order.
       </p>
-      <h3>
-        What is the reason to choose Quick sort over default sort() in
-        JavaScript
-      </h3>
-      <p>
-        Though sort() gives the result we want, problem lies with the way it
-        sorts the array elements. Default sort() in JavaScript uses insertion
-        sort by V8 Engine of Chrome and Merge sort by Mozilla Firefox and
-        Safari. But, other this is not suitable if you need to sort large number
-        of elements. So, the solution is to use Quick sort for large dataset.
-        So, to understand completely, you need to know how Quick sort works and
-        let us see that in detail now.
-      </p>
+
+      <img
+        src="big-o-graph.png"
+        width="1000"
+        height="1000"
+        alt="big-o-graph.png"
+      />
+
+      <img src="DSOps.jpg" width="400" height="400" alt="DSOps.jpg" />
+      <img src="sortalgos.jpg" width="400" height="400" alt="sortalgos.jpg" />
+
+      <div className="ratio ratio-16x9">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/kPRA0W1kECg"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   );
 };

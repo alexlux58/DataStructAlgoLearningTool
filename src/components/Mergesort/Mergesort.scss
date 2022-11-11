@@ -1,0 +1,24 @@
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content-merge-sort {
+  border: 1px solid black;
+  margin-left: 200px;
+  padding: 1px 16px;
+  width: 130%;
+  height: 2000px;
+
+  @media only screen and (max-width: 880px) {
+    width: 100%;
+  }
+}
+
+li {
+  margin-top: 10px;
+}
+
+.time-completxity {
+  border: 1px solid red;
+}
+
+.space-completxity {
+  border: 1px solid red;
+}
