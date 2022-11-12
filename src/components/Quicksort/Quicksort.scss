@@ -1,6 +1,9 @@
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 .content {
-  background-color: yellow;
+  /*Radial Gradient*/
+  background-image: radial-gradient(#fbd72b 5.66%, #f9484a 94.35%);
+  filter: brightness(93%);
+
   border: 1px solid black;
   margin-left: 200px;
   padding: 1px 16px;
